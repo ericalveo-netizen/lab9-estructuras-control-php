@@ -231,6 +231,7 @@ $total = $base + ($base * ITBMS);
 
   <footer id="firma">
   Lab 9 · <?php echo $nombreCompleto; ?> · Semilla <?php echo SEMILLA; ?>
+  // Lab 9: todos los valores se calculan a partir de SEMILLA, no hay resultados fijos.
 </footer>
 </body>
 </html>

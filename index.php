@@ -124,7 +124,6 @@ $estacion = match ($mes) {
 };
 
 // ---------- EJERCICIO 5 · Caja de la tienda (reto integrador) ----------
-// ===== Ejercicio 5: caja de la tienda =====
 const ITBMS = 0.07;
 
 if ($monto >= 150) {
@@ -159,13 +158,25 @@ $total = $base + ($base * ITBMS);
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="lab9-huella" content="<?php echo $huella; ?>">
   <title>Lab 9 · Estructuras de control</title>
-  <!-- TODO CSS-1: enlaza css/estilos.css (CSS externo) -->
-  <!-- TODO CSS-2: agrega un <style> interno con al menos 2 reglas -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    section {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+</style>
 </head>
 <body>
   <header>
-    <!-- TODO CSS-3: agrega un atributo style (CSS en línea) a este h1 -->
-    <h1>Laboratorio #9 · Estructuras de control</h1>
+    <h1 style="color: #e1e3e6eb; text-align: center;">Laboratorio 9 – Estructuras de control en PHP</h1>
     <p id="autor">Autor: <?php echo $nombreCompleto; ?></p>
   </header>
 
